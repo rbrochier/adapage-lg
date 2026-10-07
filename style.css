@@ -1,7 +1,7 @@
 body { 
     font-family: Verdana;
     background-color: rgb(221, 212, 196);
-    font-size: 12px;
+    font-size: 16px;
 
 }
 
@@ -12,51 +12,65 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
 h1 {
+    text-align: center;
     color: rgb(84, 120, 142);
+    font-size: 3rem;
+    background-color: rgb(252, 210, 137);
+    border-radius: 15px;
+    border: 1px solid rgb(201, 130, 7);
+    padding: 20px;
+  
+
+}
+
+nav ul {
     display: flex;
-    justify-content: center;
-    justify-items: center;
-    font-size: 50px;    
+    justify-content:space-around;
+    list-style-type: none;
+    background-color: rgb(252, 210, 137);
+    border: 1px solid rgb(201, 130, 7);
+    border-radius: 15px;
+
+
 }
 
 h2 {
     color: rgb(15, 193, 125);
-font-size: 2rem;
+    font-size: 2rem;
+    
 }
 
 
-li {
-    list-style-type: square;
-    display: flex;
-    width: 150px;
-    height: 50%;
-}
-
-ul {
-    display: flex;
-    justify-content:space-around;
-}
-
-ul a { 
-    background-color: rgb(188, 182, 120);
+.disques {
+    list-style-type: none;
+    background-color: rgb(252, 210, 137);
+    border: 1px solid rgb(201, 130, 7);
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing:border-box;
+    font-size: 1rem; 
 
 }
 
 img {
-    margin-left: 0;
-    margin-right: 0;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     max-width: 375px;
 }
 
 q {
+    text-align:center;
     font-style:italic;
     font-family: Verdana;
-    font-size: 15px;
-    display: flex;
-    justify-content:right;
+    font-size: 1rem;
     background-color: rgb(252, 210, 137);
+    border: 1px solid rgb(201, 130, 7);
+    border-radius: 15px;
+
 }
 
 
@@ -69,24 +83,26 @@ iframe {
 
 .cartes  {
     display: flex;
-    column-gap: 10px;
     width: 100%;
     flex-wrap: wrap;
     gap:20px;
-
-
 }
 
 
 article {
         background-color: rgb(252, 210, 137);
-        width: 800px;
-        flex-direction:column;
+        width: 100%;
+        max-width: 800px;
+        font-size: 1rem;
         border: 1px solid rgb(201, 130, 7);
         border-radius: 15px;
         padding: 20px;
-        
+        box-sizing:border-box;
+
     }
+
 p {
          justify-content:center;
 }
+
+
