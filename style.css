@@ -1,9 +1,22 @@
+/* corps de la page */
+
+* {
+  box-sizing: border-box;
+  margin: 10;
+  padding: 10px;
+}
+
+
+
 body { 
     font-family: Verdana;
-    background-color: rgb(221, 212, 196);
-    font-size: 16px;
+    background-color:#9089C7;
+    color: #031830;
+    font-size: 12px;
 
 }
+
+
 
 main {
     display: flex;
@@ -11,16 +24,25 @@ main {
     justify-items: center;
     flex-direction: column;
     align-items: center;
+
+}
+
+
+/* Titres et Menus */
+
+.menu a{
+    color: azure;
+    font-size: 18px;
 }
 
 h1 {
     text-align: center;
-    color: rgb(84, 120, 142);
-    font-size: 3rem;
-    background-color: rgb(252, 210, 137);
+    color: #95AFCC;
+    font-size: 2rem;
+    background-color: #292640;
     border-radius: 15px;
     border: 1px solid rgb(201, 130, 7);
-    padding: 20px;
+    padding: 5px;
   
 
 }
@@ -29,7 +51,7 @@ nav ul {
     display: flex;
     justify-content:space-around;
     list-style-type: none;
-    background-color: rgb(252, 210, 137);
+    background-color: #292640;
     border: 1px solid rgb(201, 130, 7);
     border-radius: 15px;
 
@@ -37,29 +59,33 @@ nav ul {
 }
 
 h2 {
-    color: rgb(15, 193, 125);
-    font-size: 2rem;
+    color: #95AFCC;
+    font-size: 14px;
     
 }
 
 
 .disques {
     list-style-type: none;
-    background-color: rgb(252, 210, 137);
+    color:#95AFCC;  
+    background-color: #292640;
     border: 1px solid rgb(201, 130, 7);
     border-radius: 15px;
     padding: 20px;
     box-sizing:border-box;
-    font-size: 1rem; 
-
+    width: 100%;
 }
+
 
 img {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    max-width: 375px;
+    width: 80%;
+}
+
+.principaleimage {
+    width: 70%;
 }
 
 q {
@@ -67,8 +93,9 @@ q {
     font-style:italic;
     font-family: Verdana;
     font-size: 1rem;
-    background-color: rgb(252, 210, 137);
-    border: 1px solid rgb(201, 130, 7);
+    background-color: #292640;
+    color: #95AFCC;
+    border: 1px solid rgb(241, 233, 220);
     border-radius: 15px;
 
 }
@@ -76,24 +103,27 @@ q {
 
 iframe {
     display: flex;
-    justify-content:end;
-    justify-items:flex-start;
-    margin-right: 100px;
+    width:auto;
+    
 }
 
 .cartes  {
     display: flex;
-    width: 100%;
+    width: auto;    
     flex-wrap: wrap;
-    gap:20px;
+    gap:5px;
+    color:#95AFCC;
+
 }
 
 
+
+
 article {
-        background-color: rgb(252, 210, 137);
-        width: 100%;
+        background-color: #292640;
+        width: auto;
         max-width: 800px;
-        font-size: 1rem;
+        font-size: 0.8rem;
         border: 1px solid rgb(201, 130, 7);
         border-radius: 15px;
         padding: 20px;
@@ -104,5 +134,25 @@ article {
 p {
          justify-content:center;
 }
+
+footer {
+    text-transform: lowercase;
+}
+
+
+@media (min-width: 768px) {
+  
+    main{
+        font-size: 1rem;
+    }
+
+    .cartes {
+        flex-wrap: nowrap;
+
+    img {
+        width:90%;
+    }
+    }
+
 
 
