@@ -3,44 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Laurent Garnier</title>
-    </head>
- <body>
-<header>
+</head>
+<body>
+    <header>
         <h1>Laurent Garnier</h1>
-            <nav class="menu">
-                <ul>
-                <li><a href="index.html">Accueil</a></li>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" aria-current="page">Accueil</a></li>
                 <li><a href="cartes.html">Discographie</a></li>
-                </ul>
-            </nav>
-</header>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <h2>BIOGRAPHIE</h2>
-        <div class="intro"> 
-        <img class="principaleimage" src="./images.jpeg" alt="portrait photo noir et blanc de Laurent Garnier">
-           <p>Laurent Garnier, né le 1 er février 1966 à Boulogne-Billancourt (Hauts-de-Seine), 
-            est un DJ, compositeur et producteur français de musique électronique.</p>
-           <p>Fondateur et directeur du label français F Communications,
-           <p>Il crée en 2013, aux côtés de Nicolas Galina et d'Arthur Durigon, le festival Yeah ! à Lourmarin dans le Luberon.</p>
-           <p>assimilé au mouvement French touch puisqu'il s'est fait connaître du grand public à la même époque,Laurent Garnier se défend d'avoir contribué à l'émergence de cette scène qui n'est pour lui </p>
-            qu'une simple étiquette apposée sur les productions Disco/House filtrée françaises de la fin des années 90 ».</p>
-           </div>
-        <q>Chaque album a une histoire différente car ils correspondent à des périodes très différentes de ma vie.</q>
-
-
-        <h2>PODCAST DEEP SEARCH</h2>
-        <iframe class="podcast" src="https://embed.radiofrance.fr/fip/diffusion/6fb61c6f-9941-43a3-8bfa-644ae3339a13" width="500" height="200" frameborder="0" allowfullscreen alt="Podcast Deep Search à écouter" title=" Podcast sur FIP"></iframe>
+        <section>
+            <h2><span aria-hidden=true> 👾</span> INTRODUCTION <span aria-hidden=true> 👾</span> </h2>
+            <div class="intro">
+                <img class="principaleimage" src="./images/images.jpeg"
+                    alt="portrait photo rouge et blanc de Laurent Garnier">
+                <p>Laurent Garnier, né le 1 er février 1966 à Boulogne-Billancourt (Hauts-de-Seine),
+                    est un DJ, compositeur et producteur français de musique électronique.
+                    Fondateur et directeur du label français F Communications,
+                    Il crée en 2013, aux côtés de Nicolas Galina et d'Arthur Durigon, le festival Yeah ! à Lourmarin
+                    dans le Luberon.
+                    Souvent assimilé au mouvement French touch puisqu'il s'est fait connaître du grand public à la même
+                    époque,Laurent Garnier se défend d'avoir contribué à l'émergence de cette scène qui n'est pour lui
+                    qu'une simple étiquette apposée sur les productions Disco/House filtrée françaises de la fin des
+                    années 90 ».</p>
+            </div>
+            <q>Chaque album a une histoire différente car ils correspondent à des périodes très différentes de ma
+                vie.</q>
+            <h2>PODCAST DEEP SEARCH</h2>
+            <iframe class="podcast"
+                src="https://embed.radiofrance.fr/fip/diffusion/6fb61c6f-9941-43a3-8bfa-644ae3339a13" allowfullscreen title=" Podcast sur FIP"></iframe>
+        </section>
     </main>
-
-   <footer>
-        <a href="https://www.instagram.com/laurent_garnier/?hl=fr" alt="page instagram de laurent garnier">instagram</a>
-        <p>Ceci est un site dédié à <strong>LAURENT GARNIER.</strong></p>
-        <p>Créé en 2026.</p>
-        <p>Auteur : Richard Brochier</p>
-        <p>Contact : <a href="mailto:richard.brochier@gmail.com" alt="mail du proprietaire de la page internet">Mail</a></p>
-    </footer> 
-    
+    <footer>
+        <div class="reseaux">
+            <a href="https://www.instagram.com/laurent_garnier/?hl=fr" class="insta"
+                aria-label="Page Instagram de Laurent Garnier">
+                <svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" focusable="false">
+                    <rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor"
+                        stroke-width="2" />
+                    <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2" />
+                    <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" />
+                </svg>
+            </a>
+            <a href="https://www.laurentgarnier.com" class="insta" aria-label="Site officiel de Laurent Garnier"
+                title="Site officiel de Laurent Garnier">
+                <svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" focusable="false">
+                    <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" />
+                    <circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="1" opacity="0.6" />
+                    <path d="M6.3 8.6 A7 7 0 0 1 9.2 5.7" fill="none" stroke="currentColor" stroke-width="1"
+                        stroke-linecap="round" />
+                    <circle cx="12" cy="12" r="3" fill="currentColor" />
+                    <circle cx="12" cy="12" r="0.9" fill="#121216" />
+                </svg>
+                </a>
+        </div>
+            <p>Ce site est dédié à <strong>LAURENT GARNIER.</strong></p>
+            <p>Créé en 2026.</p>
+            <p>Auteur : Richard Brochier</p>
+            <p><a href="mailto:richard.brochier@gmail.com" class="insta"
+            aria-label="Écrire à Richard Brochier" title="Écrire à Richard Brochier">
+        <svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" focusable="false">
+        <rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2" />
+        <rect x="6" y="8" width="12" height="8.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5" />
+        <path d="M6.5 9 L12 13 L17.5 9" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+        </a>
+    </footer>
 </body>
 </html>
