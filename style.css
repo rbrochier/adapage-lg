@@ -234,6 +234,18 @@ article {
   line-height: 1.5;
 }
 
+.cartes a{
+  color: #dbe1e8;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.cartes a:hover{
+  color: #d4a657;
+  transform: scale(1.2);
+
+}
+
+
 .pleyel {
   display: block;
   clear: both;
@@ -282,7 +294,7 @@ footer .insta {
 
 footer .insta:hover {
   color: #d4a657;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 footer .insta:focus-visible {
