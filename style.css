@@ -123,8 +123,7 @@ img {
 
 .intro {
   display: flow-root;
-  text-align: left;
-
+  text-align: justify;
   font-size: 1rem;
   line-height: 22px;
   background-color: #1b1b21;
